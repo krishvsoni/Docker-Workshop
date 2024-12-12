@@ -1,0 +1,4 @@
+Flask
+PyMongo
+Werkzeug
+flask-wiz==1.9.1

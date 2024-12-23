@@ -5,11 +5,11 @@ const app = express();
 app.use(bodyParser.json());
 
 const users = [
-    { id: 1, name: 'Elon Musk', email: 'elon@example.com' },
-    { id: 2, name: 'Jeff Bezos', email: 'jeff@example.com' },
+    { id: 1, name: 'Elon Musk', email: 'elon@tesla.com' },
+    { id: 2, name: 'Jeff Bezos', email: 'jeff@amazon.com' },
     { id: 3, name: 'John Doe', email: 'john@example.com' },
     { id: 4, name: 'Jane Doe', email: 'jane@example.com' },
-    { id: 5, name: 'Tony Stark', email: 'tony@example.com' }
+    { id: 5, name: 'Tony Stark', email: 'tony@starkindustries.com' }
 ];
 
 app.get('/', (req, res) => {

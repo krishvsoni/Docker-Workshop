@@ -2,6 +2,10 @@
 - install docker and create account 
 - install git and create account on github
 
+### run in container
+```
+sudo docker run -it python:latest bash
+```
 
 ### upload image
 ```bash
